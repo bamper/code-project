@@ -1,27 +1,47 @@
-## Laravel PHP Framework
+## Code Project
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Laravel 5.1 & AngularJS training by code.education
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Quick start
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+1 - Clone the repo:
 
-## Official Documentation
+```bash
+git clone https://github.com/arcostasi/code-project.git
+```
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+2 - Change to the directory created
 
-## Contributing
+```bash
+cd code-project/
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+3 - Download Composer
 
-## Security Vulnerabilities
+Run this in your terminal to get the latest Composer version:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+```bash
+curl -sS https://getcomposer.org/installer | php
+```
 
-### License
+or if you don't have curl:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+```bash
+php -r "readfile('https://getcomposer.org/installer');" | php
+```
+
+4 - Composer Install
+
+```bash
+php composer.phar install
+```
+
+5 - Start PHP Artisan Built-in web server:
+
+```bash
+php artisan serve
+```
+
+##Copyright and license
+
+Code and documentation copyright (c) 2015, Code released under the New BSD license.
