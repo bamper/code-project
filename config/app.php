@@ -144,6 +144,8 @@ return [
         CodeProject\Providers\EventServiceProvider::class,
         CodeProject\Providers\RouteServiceProvider::class,
 
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
     ],
 
     /*

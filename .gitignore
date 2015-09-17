@@ -8,3 +8,4 @@ Homestead.json
 .env
 .composer.lock
 .comploser.phar
+/storage/database.sqlite
