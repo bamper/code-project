@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/client', ['uses' => 'ClientController@index']);
+Route::post('/client', ['uses' => 'ClientController@store']);
+Route::get('/client/{id}', ['uses' => 'ClientController@show']);
+Route::delete('/client/{id}', ['uses' => 'ClientController@destroy']);
